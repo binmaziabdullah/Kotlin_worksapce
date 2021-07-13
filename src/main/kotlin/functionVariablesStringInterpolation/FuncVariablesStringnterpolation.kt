@@ -1,6 +1,6 @@
-package FunctionVariablesStringInterpolation
+package functionVariablesStringInterpolation
 
-class FuncVariablesStringinterpolation(var length: Int, var breadth: Int) {
+class FuncVariablesStringInterpolation(var length: Int, var breadth: Int) {
 
     var l: Int = length
     var b: Int = breadth
