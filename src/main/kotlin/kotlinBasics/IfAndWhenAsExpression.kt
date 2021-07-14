@@ -11,10 +11,13 @@ class IfAndWhenAsExpression {
         val system = Scanner(System.`in`)
         var age = system.nextInt()
         var eligibility = if (age >= 18) {
-           println("you are eligible to vote")
+           "you are eligible to vote"
         }
+        else if(age <0)
+            "please! enter a valid number"
         else
-            println("you are not eligible to vote")
+            "you are not eligible to vote"
+        println(eligibility)
     }
 
     //when expression is more of a switch case statement
@@ -25,11 +28,12 @@ class IfAndWhenAsExpression {
 
         val result = when(system.nextInt())
         {
-            500 -> println("You eligible for EMI credit card")
-            390 -> println("You almost close to be the eligible candidate")
-            100-> println("You are not eligible for EMI credit card")
-            else ->  println("Not a valid number")
+            500 -> "You eligible for EMI credit card"
+            390 -> "You almost close to be the eligible candidate"
+            100-> "You are not eligible for EMI credit card"
+            else -> "Not a valid number"
         }
+        print(result)
     }
 }
 
