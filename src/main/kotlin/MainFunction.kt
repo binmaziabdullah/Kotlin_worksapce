@@ -1,5 +1,4 @@
-import functionVariablesStringInterpolation.FuncVariablesStringInterpolation
-import functionVariablesStringInterpolation.Ranges
+import kotlinBasics.FuncVariablesStringInterpolation
 
 fun main() {
 
@@ -8,6 +7,5 @@ fun main() {
     var b = obj.b
 
     obj.areaOfRectangle(l,b)
-    obj.sumOfIntegers(5,10)
-
+    println("sum of $l and $b is ${obj.sumOfIntegers(l,b)}")
 }
