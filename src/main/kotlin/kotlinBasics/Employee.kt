@@ -17,10 +17,10 @@ fun main(){
         println("equals method invoked automatically with default implementation\n")
     }
 
-    val id = employee.component1(); //destructing
+    val (id, name) = employee; //destructing object into number of variables
     val designation = employee.designation
 
-    println("id of a employee is $id\n")
+    println("id and name of a employee -- using destructing object into variables\n$id\n$name\n")
     println("designation of employee $designation\n") //calling toString() internally for data class members
     println("Following are the details of employee\n${employee3.getDetails()}\n")
 

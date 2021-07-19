@@ -9,7 +9,9 @@ package kotlinBasics
 
     }
 
-    fun areaOfRectangle(l :Int, b:Int) :Int = l*b
+    fun areaOfRectangle(l :Int, b:Int) :Int{
+       return l*b
+    }
 
 
 
