@@ -6,8 +6,8 @@ class HigherOrderFunction
 
     fun getAreaOfTriangle(radius:Float,func: (radius : Float) -> Unit)
     {
-       val r = func(radius)
-        println("area of circle = $r")
+        println("inside getAreaOfTriangle function and calling areaOfCircle function")
+       func(radius)
     }
 
     fun areaOfCircle(radius : Float){
